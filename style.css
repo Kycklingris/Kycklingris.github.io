@@ -7,9 +7,11 @@
     background:#1a002f;
     padding-bottom:10px;
     padding-top:10px;
+    padding-left:10px;
     color:white;
     margin-right:80%;
-    box-shadow: -1px 10px 23px 0px rgba(0,0,0,0.75);
+    box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.75);
+    text-shadow:3px 3px rgb(252, 0, 218);
     position:relative;
     z-index:2;
 }
