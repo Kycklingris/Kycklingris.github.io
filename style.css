@@ -1,0 +1,28 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+.title{
+    background:#1a002f;
+    padding-bottom:10px;
+    padding-top:10px;
+    color:white;
+    margin-right:80%;
+    box-shadow: -1px 10px 23px 0px rgba(0,0,0,0.75);
+    position:relative;
+    z-index:2;
+}
+
+.card {
+    background:rgb(221, 221, 221);
+    color:black;
+    padding:10px;
+    margin:auto;
+
+}
+
+#container {
+    background:rgb(221, 221, 221);
+    margin-right:80%;
+    }
