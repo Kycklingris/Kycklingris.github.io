@@ -1,12 +1,17 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import requests
-import re
+from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.chrome.options import Options
+import keys
 
-driver = webdriver.Chrome()
+chrome_options = Options()
+chrome_options.add_argument("--headless")
 
-USERNAME = "***REMOVED***"
-PASSWORD = "***REMOVED***"
+driver = webdriver.Chrome(chrome_options=chrome_options)
+
+
+USERNAME = keys.username
+PASSWORD = keys.password
 
 driver.get("https://sms.schoolsoft.se/nti/sso")
 
