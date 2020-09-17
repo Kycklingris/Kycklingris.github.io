@@ -57,7 +57,6 @@ data.forEach(res => {
 
 
 
-
     let container = document.querySelector("#container");
     container.appendChild(card);
 });
