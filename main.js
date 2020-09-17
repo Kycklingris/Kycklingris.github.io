@@ -1,28 +1,28 @@
 let data = [
   {
     name: "Subway",
-    location: "description",
+    location: "Odenplan",
     review: "4.5/10",
     annexet: "5min",
     craford: "10min",
   },
   {
     name: "Subway",
-    location: "description",
+    location: "Odenplan",
     review: "10/10",
     annexet: "5min",
     craford: "10min",
   },
   {
     name: "Subway",
-    location: "description",
+    location: "Odenplan",
     review: "7/10",
     annexet: "5min",
     craford: "10min",
   },
   {
     name: "Subway",
-    location: "description",
+    location: "Odenplan",
     review: "7/10",
     annexet: "5min",
     craford: "10min",
@@ -43,7 +43,7 @@ data.forEach(res => {
 
     let address = document.createElement("p");
     address.classList.add("address");
-    let location = document.createTextNode('Location:' + res.location + ', ');
+    let location = document.createTextNode(res.location);
     address.appendChild(location);
     card.appendChild(address);
 

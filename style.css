@@ -21,10 +21,11 @@
     color:black;
     padding:10px;
     margin:auto;
+    border:1px black;
 
 }
 
 #container {
     background:rgb(221, 221, 221);
     margin-right:80%;
-    }
+}
