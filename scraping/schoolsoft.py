@@ -1,13 +1,20 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-from selenium.webdriver.common.keys import Keys
+import requests
+import os
+import json
+
 from selenium.webdriver.chrome.options import Options
+
 import keys
 
-chrome_options = Options()
-chrome_options.add_argument("--headless")
+options = Options()
+options.headless = True
 
-driver = webdriver.Chrome(chrome_options=chrome_options)
+path = os.getcwd()
+
+
+driver = webdriver.Chrome(executable_path = path + "/scraping/chromedriver.exe", options = options)
 
 
 USERNAME = keys.username
@@ -25,7 +32,7 @@ btn.click()
 
 driver.get("https://sms.schoolsoft.se/nti/jsp/student/right_student_news.jsp?menu=news")
 html = driver.page_source
+driver.quit()
 
-nyheter = BeautifulSoup(html)
-
-print(nyheter)
+soup = BeautifulSoup(html, "lxml")
+print(soup.title.text)
