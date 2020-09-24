@@ -35,7 +35,7 @@ btn = driver.find_elements_by_xpath("//*[@class='form__button form__button--prim
 btn.click()
 
 driver.get("https://sms.schoolsoft.se/nti/jsp/student/right_student_news.jsp?menu=news")
-time.sleep(1)
+time.sleep(2)
 
 
 element = driver.find_element_by_id("accordion-heading69500")
@@ -46,7 +46,7 @@ actions.move_to_element(element).perform()
 btn = driver.find_element_by_xpath('//a[@href="#collapse69500"]')
 btn.click()
 
-time.sleep(1)
+time.sleep(2)
 
 html = driver.page_source
 
@@ -61,4 +61,12 @@ accordion = soup.find(id='accordion-inner69500')
 
 lunchlista = accordion.findAll("div", {"class": "accordion_inner_left"})
 
-print(lunchlista)
+resturanger = []
+
+for i in lunchlista[0].find_all('p', {'class': "tinymce-p"}):
+    if i.text == "\xa0":
+        continue
+    resturanger.append(i.text)
+
+for i in resturanger:
+    print(i)
