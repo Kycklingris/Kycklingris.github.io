@@ -1,6 +1,7 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import requests
+import re
 import os
 import json
 import time
@@ -63,10 +64,30 @@ lunchlista = accordion.findAll("div", {"class": "accordion_inner_left"})
 
 resturanger = []
 
-for i in lunchlista[0].find_all('p', {'class': "tinymce-p"}):
+for i in lunchlista[0].find_all('p', {'class': "tinymce-p"})[6:]:
     if i.text == "\xa0":
         continue
     resturanger.append(i.text)
 
+resturanger = resturanger[:-1]
+
+resturanger2 = []
 for i in resturanger:
-    print(i)
+    i = i.translate({ord('*'): None})
+    i = i.translate({ord("'"): None})
+    i = i.translate({ord('#'): None})
+    i = i.translate({ord('´'): None})
+    i = i.translate({ord(":"): None})
+    i = i.translate({ord(";"): None})
+    i = i.translate({ord("!"): None})
+    i = i.replace('STOCKHOLM', '')
+    i = i.replace('Stockholm', '')
+    i = i.replace('stockholm', "")
+    i = i.replace('sTOCKHOLM', '')
+    i = i.replace(' - ', ',')
+    resturanger2.append(i)
+
+for i in resturanger2:
+    bingbong = i.split(',', 1)
+    print(bingbong)
+
