@@ -1,7 +1,6 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import requests
-import re
 import os
 import json
 import time
@@ -87,7 +86,26 @@ for i in resturanger:
     i = i.replace(' - ', ',')
     resturanger2.append(i)
 
+resturanger3 = []
+
+
+class resturang(object):
+    def __init__(self, name = 'N/A', location = 'N/A', annexet = 'N/A', craford = 'N/A', extra = 'N/A', review =  'N/A', description = 'N/A'):
+        self.name = name
+        self.location = location
+        self.annexet = annexet
+        self.craford = craford
+        self.extra = extra
+        self.review = review
+        self.description = description
+
 for i in resturanger2:
-    bingbong = i.split(',', 1)
-    print(bingbong)
+    tmp = i.split(',', 1)
+    tmp2 = tmp[1].split(' NY', 1)
+    tmp2 = tmp[1].split(' ny', 1)
+    tmp2 = tmp[1].split(' Ny', 1)
+    tmp2 = tmp[1].split(' Tillbaka', 1)
+    tmp2 = tmp[1].split(' tillbaka', 1)
+    tmp2 = tmp[1].split(' TILLBAKA', 1)
+
 

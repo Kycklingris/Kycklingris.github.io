@@ -1,4 +1,4 @@
-let data = [
+var data = [
   {
     name: "Subway",
     location: "Odenplan",
