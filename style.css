@@ -1,19 +1,41 @@
 * {
     padding:0;
     margin:0;
+    border:0;
+    border-color:white;
+    border-style:dashed;
+}
+
+#sidebar{
+  width: 20%;
+  height: 100%;
+  float: left;
+
+}
+
+#rightside {
+    width:80%;
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:20%;
+    overflow:auto;
 }
 
 .title{
     background:#1a002f;
-    padding-bottom:10px;
-    padding-top:10px;
-    padding-left:10px;
+    padding-bottom:5%;
+    padding-top:5%;
+    padding-left:5%;
     color:white;
-    margin-right:80%;
     box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.75);
-    text-shadow:3px 3px rgb(252, 0, 218);
     position:relative;
     z-index:2;
+    border-bottom:10px;
+    border-right:10px;
+    border-color:#130222;
+    border-style:inset;
+
 }
 
 .card {
@@ -21,11 +43,22 @@
     color:black;
     padding:10px;
     margin:auto;
-    border:1px black;
+    border:1px;
+    border-radius:7px;
+    border-style:solid;
+    border-color:rgb(199, 199, 199);
 
 }
 
+
+
 #container {
-    background:rgb(221, 221, 221);
-    margin-right:80%;
+    overflow:auto;
+    background:rgb(197, 197, 197);
+    height:600px;
+}
+
+img {
+    height:100%;
+
 }

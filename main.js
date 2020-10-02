@@ -26,7 +26,42 @@ var data = [
     review: "7/10",
     annexet: "5min",
     craford: "10min",
-    },
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
   
 ];
 
