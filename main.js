@@ -42,6 +42,20 @@ var data = [
     craford: "10min",
   },
   {
+    name: "Subway7",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
     name: "Subway",
     location: "Odenplan",
     review: "7/10",
@@ -62,12 +76,50 @@ var data = [
     annexet: "5min",
     craford: "10min",
   },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  },
+  {
+    name: "Subway",
+    location: "Odenplan",
+    review: "7/10",
+    annexet: "5min",
+    craford: "10min",
+  }
   
 ];
 
+var id = 1;
+
 data.forEach(res => {
     let card = document.createElement("div");
-    card.classList.add("card");
+  card.classList.add("card");
+  card.id = "card" + parseInt(id);
 
     let header = document.createElement("H2")
     header.classList.add("header");
@@ -88,7 +140,7 @@ data.forEach(res => {
     review.appendChild(reviewtmp);
     card.appendChild(review);
 
-
+  id++;
 
 
 

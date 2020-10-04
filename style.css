@@ -12,6 +12,12 @@
   float: left;
 
 }
+a {
+    text-decoration:none;
+    color:black;
+    padding-right:5px;
+}
+
 
 #rightside {
     width:80%;
@@ -23,12 +29,12 @@
 }
 
 .title{
+    font-size:150%;
     background:#1a002f;
     padding-bottom:5%;
     padding-top:5%;
     padding-left:5%;
     color:white;
-    box-shadow: -1px 10px 17px 0px rgba(0,0,0,0.75);
     position:relative;
     z-index:2;
     border-bottom:10px;
@@ -50,15 +56,32 @@
 
 }
 
+footer {
+    position:absolute;
+    bottom:0;
+    width:20%;
+    padding-left:7px;
+}
+
 
 
 #container {
+    border:1px;
+    border-style:solid;
+    border-color:rgb(155, 155, 155);
+    position:absolute;
+    width:20%;
     overflow:auto;
     background:rgb(197, 197, 197);
-    height:600px;
+    height:87%;
 }
 
 img {
     height:100%;
+
+}
+
+#Backbutton  {
+    font-size:150%;
 
 }
