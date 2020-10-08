@@ -18,16 +18,6 @@ a {
     padding-right:5px;
 }
 
-
-#rightside {
-    width:80%;
-    position:absolute;
-    bottom:0;
-    top:0;
-    left:20%;
-    overflow:auto;
-}
-
 .title{
     font-size:150%;
     background:#1a002f;
@@ -56,11 +46,20 @@ a {
 
 }
 
+.map {
+    width:80%;
+    position:absolute;
+    bottom:0;
+    top:0;
+    right:0;
+    }
+
 footer {
     position:absolute;
     bottom:0;
     width:20%;
     padding-left:7px;
+    height:50px;
 }
 
 
@@ -72,13 +71,9 @@ footer {
     position:absolute;
     width:20%;
     overflow:auto;
-    background:rgb(197, 197, 197);
-    height:87%;
-}
-
-img {
-    height:100%;
-
+    background:rgb(197, 197, 197); 
+    bottom:50px;
+    top:100px;
 }
 
 #Backbutton  {

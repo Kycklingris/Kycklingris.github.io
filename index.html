@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" theme-color="purple">
     <title>NTI Matlista</title>
+    <script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList"></script>
+    <script src="data.json"></script>
     <script defer src="main.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -16,14 +19,8 @@
         <a href="https://github.com/Kycklingris/NTI-Matlista">Github</a>
     </nav>
     <div id="container"></div>
-    <footer>
-        <p>tjenare grabbar, hundra procent copyright på detta (2020)</p>
-    </footer>
     </div>
-    <div id="rightside">
-        <img src="maps.png" alt="Picture with directions to subway">
-
-    </div>
+    <div id="map" class="map"></div>
 
 </body>
 </html>

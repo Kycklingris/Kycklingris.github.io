@@ -1,0 +1,290 @@
+[
+    {
+        "name": "Falaffel Kungen",
+        "location": "Sveavägen 73",
+        "extra": "",
+        "lon": 18.0551969,
+        "lat": 59.3436257,
+        "annexet": "7 mins",
+        "craford": "16 mins"
+    },
+    {
+        "name": "Burger King",
+        "location": "Karlbergsvägen 4",
+        "extra": "",
+        "lon": 18.0514325,
+        "lat": 59.34332670000001,
+        "annexet": "5 mins",
+        "craford": "14 mins"
+    },
+    {
+        "name": "Subway Odenplan",
+        "location": "Karlbergsvägen 16",
+        "extra": "",
+        "lon": 18.0485272,
+        "lat": 59.3431532,
+        "annexet": "3 mins",
+        "craford": "12 mins"
+    },
+    {
+        "name": "Nybergs Konditori",
+        "location": "Upplandsgatan 26",
+        "extra": "",
+        "lon": 18.0516648,
+        "lat": 59.3397112,
+        "annexet": "3 mins",
+        "craford": "7 mins"
+    },
+    {
+        "name": "Subway Sankt Eriksplan",
+        "location": "Sankt Eriksplan 17",
+        "extra": "",
+        "lon": 18.0367556,
+        "lat": 59.3392478,
+        "annexet": "11 mins",
+        "craford": "9 mins"
+    },
+    {
+        "name": "Thai Fastfood",
+        "location": "Olof Palmes gata 7",
+        "extra": "",
+        "lon": 18.0621436,
+        "lat": 59.33629200000001,
+        "annexet": "16 mins",
+        "craford": "16 mins"
+    },
+    {
+        "name": "Subway Hötorget",
+        "location": "Norrmalm Hötorget",
+        "extra": "",
+        "lon": 18.0624517,
+        "lat": 59.33523359999999,
+        "annexet": "16 mins",
+        "craford": "17 mins"
+    },
+    {
+        "name": "Mcdonalds Sveavägen 71 2",
+        "location": "Sveavägen 71",
+        "extra": "",
+        "lon": 18.0555915,
+        "lat": 59.3432902,
+        "annexet": "8 mins",
+        "craford": "15 mins"
+    },
+    {
+        "name": "Sterix",
+        "location": "Polhemsgatan 50",
+        "extra": "",
+        "lon": 18.0395717,
+        "lat": 59.33395909999999,
+        "annexet": "20 mins",
+        "craford": "13 mins"
+    },
+    {
+        "name": "Subway Sveavägen",
+        "location": "Sveavägen 33",
+        "extra": "",
+        "lon": 18.0617483,
+        "lat": 59.3368985,
+        "annexet": "15 mins",
+        "craford": "16 mins"
+    },
+    {
+        "name": "Mcdonalds St Eriksgatan 3",
+        "location": "S:t Eriksgatan 32",
+        "extra": "",
+        "lon": 18.0323468,
+        "lat": 59.33347869999999,
+        "annexet": "19 mins",
+        "craford": "18 mins"
+    },
+    {
+        "name": "Valkyria",
+        "location": "Crafoords väg 12",
+        "extra": "",
+        "lon": 18.0461647,
+        "lat": 59.3375599,
+        "annexet": "10 mins",
+        "craford": "1 min"
+    },
+    {
+        "name": "Frasses Odengatan",
+        "location": "Odengatan 60",
+        "extra": "",
+        "lon": 18.0524725,
+        "lat": 59.3434804,
+        "annexet": "5 mins",
+        "craford": "14 mins"
+    },
+    {
+        "name": "Il Piccio Ristorante",
+        "location": "Fridhemsgatan 3",
+        "extra": "",
+        "lon": 18.0262985,
+        "lat": 59.3302133,
+        "annexet": "27 mins",
+        "craford": "26 mins"
+    },
+    {
+        "name": "Crispy House",
+        "location": "Torsgatan 49",
+        "extra": "",
+        "lon": 18.0369176,
+        "lat": 59.34177339999999,
+        "annexet": "12 mins",
+        "craford": "11 mins"
+    },
+    {
+        "name": "Sushirullen Norrtulsgatan 10",
+        "location": "Norrtullsgatan 10",
+        "extra": "",
+        "lon": 18.0507121,
+        "lat": 59.34336580000001,
+        "annexet": "5 mins",
+        "craford": "14 mins"
+    },
+    {
+        "name": "Curry Spice City",
+        "location": "Sveavägen 124",
+        "extra": "",
+        "lon": 18.0547205,
+        "lat": 59.3453681,
+        "annexet": "9 mins",
+        "craford": "19 mins"
+    },
+    {
+        "name": "Kebab Kungen",
+        "location": "Odengatan 54",
+        "extra": "",
+        "lon": 18.0542509,
+        "lat": 59.3439237,
+        "annexet": "6 mins",
+        "craford": "15 mins"
+    },
+    {
+        "name": "Pizzeria Quattro",
+        "location": "Hagagatan 4",
+        "extra": "",
+        "lon": 18.0527042,
+        "lat": 59.34441879999999,
+        "annexet": "7 mins",
+        "craford": "16 mins"
+    },
+    {
+        "name": "Mehmam",
+        "location": "Hagagatan 44",
+        "extra": "",
+        "lon": 18.0494304,
+        "lat": 59.34805439999999,
+        "annexet": "12 mins",
+        "craford": "21 mins"
+    },
+    {
+        "name": "Restaurang Aroti",
+        "location": "Wallingatan 40",
+        "extra": "",
+        "lon": 18.0521523,
+        "lat": 59.3362247,
+        "annexet": "10 mins",
+        "craford": "7 mins"
+    },
+    {
+        "name": "D2ifranklin Coffee Ho",
+        "location": "Norrmalm Upplandsgatan",
+        "extra": "",
+        "lon": 18.0489652,
+        "lat": 59.3421988,
+        "annexet": "1 min",
+        "craford": "10 mins"
+    },
+    {
+        "name": "Mjs Kungsholmen",
+        "location": "Fleminggatan 45",
+        "extra": "",
+        "lon": 18.039089,
+        "lat": 59.3334926,
+        "annexet": "20 mins",
+        "craford": "13 mins"
+    },
+    {
+        "name": "Taco Bar",
+        "location": "Sankt Eriksplan 5",
+        "extra": "",
+        "lon": 18.0384542,
+        "lat": 59.3390195,
+        "annexet": "11 mins",
+        "craford": "10 mins"
+    },
+    {
+        "name": "Espresso Baren 15 Ab",
+        "location": "Fridhemsgatan 15",
+        "extra": "",
+        "lon": 18.0274457,
+        "lat": 59.33143880000001,
+        "annexet": "25 mins",
+        "craford": "24 mins"
+    },
+    {
+        "name": "Dani Pizzeria",
+        "location": "Hagagatan 52",
+        "extra": "",
+        "lon": 18.0489008,
+        "lat": 59.34864169999999,
+        "annexet": "13 mins",
+        "craford": "22 mins"
+    },
+    {
+        "name": "Iz Valkyria",
+        "location": "Crafoords väg 12",
+        "extra": "",
+        "lon": 18.0461647,
+        "lat": 59.3375599,
+        "annexet": "10 mins",
+        "craford": "1 min"
+    },
+    {
+        "name": "Coco Cafe",
+        "location": "Wallingatan 38",
+        "extra": "",
+        "lon": 18.0525505,
+        "lat": 59.33622739999999,
+        "annexet": "10 mins",
+        "craford": "7 mins"
+    },
+    {
+        "name": "Dagobert Restaurang",
+        "location": "Roslagsgatan 7",
+        "extra": "",
+        "lon": 18.0602946,
+        "lat": 59.345664,
+        "annexet": "12 mins",
+        "craford": "21 mins"
+    },
+    {
+        "name": "Pizzeria La Grande",
+        "location": "Dalagatan 32",
+        "extra": "Ny Från 3/9",
+        "lon": 18.0474348,
+        "lat": 59.34010199999999,
+        "annexet": "5 mins",
+        "craford": "6 mins"
+    },
+    {
+        "name": "Taco Bar",
+        "location": "Drottninggatan 88",
+        "extra": "",
+        "lon": 18.059374,
+        "lat": 59.33608069999999,
+        "annexet": "13 mins",
+        "craford": "14 mins"
+    },
+    {
+        "name": "Asbra Sushi",
+        "location": "Odengatan 87",
+        "extra": "Ny",
+        "lon": 18.046908,
+        "lat": 59.3416249,
+        "annexet": "3 mins",
+        "craford": "5 mins"
+    }
+]
